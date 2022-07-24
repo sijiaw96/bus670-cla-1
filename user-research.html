@@ -5,6 +5,7 @@
 	<title>GUA DESIGN</title>
 	<!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
     <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
@@ -15,14 +16,17 @@
 		    </div>
 
 		    <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Services <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="./product-strategy.html">Product Strategy</a></li>
-                            <li><a href="./visual-design.html">UI/Visual Design</a></li>
-                            <li><a href="./user-research.html">User Research</a></li>
-                        </ul>
-                    </li>
+                <li class="w3-dropdown-hover">
+                    <button class="w3-button w3-white ">
+                      <li class = "w3-left"> Services </li>
+                      <li class = "w3-right"> <img src="dropdown.png"> </li>
+                    </button>
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="./product-strategy.html" class="w3-bar-item w3-button"> Product Strategy</a>
+                      <a href="./visual-design.html" class="w3-bar-item w3-button">UI/Visual Design</a>
+                      <a href="./user-research.html" class="w3-bar-item w3-button">User Research</a>
+                    </div>   
+                  </li>
 		            <li><a href="./contact.html">Contact</a></li>
 		    </ul>
 		    
